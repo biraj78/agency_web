@@ -1,0 +1,76 @@
+.banner_container {
+  height: 300px;
+  width: 100vw;
+  background: #000;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner_container svg {
+  stroke-width: 1px;
+  stroke: rgba(255, 255, 255, 0.5);
+}
+.banner_container img {
+  position: absolute;
+  right: 154px;
+  top: -53px;
+  height: 112px;
+  width: 112px;
+}
+.banner_container h3 {
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 65px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 177.9%; /* 115.635px */
+  letter-spacing: 0.65px;
+  margin: 0;
+  text-align: center;
+  margin-left: 80px;
+}
+.banner_container h3 a {
+  color: #41bbea;
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 177.9%; /* 115.635px */
+  letter-spacing: 0.65px;
+  text-decoration: none;
+  /* margin-left: 5px; */
+}
+.banner_container h3 a:hover {
+  text-decoration: underline;
+  /* text-decoration-thickness: 2px; */
+}
+.svg1 {
+  width: 270.167px;
+  height: 195.342px;
+  transform: rotate(5.795deg);
+  flex-shrink: 0;
+  position: absolute;
+  top: -85px;
+  left: 80px;
+}
+.svg2 {
+  width: 270.167px;
+  height: 115.342px;
+  transform: rotate(0.279deg);
+  flex-shrink: 0;
+  position: absolute;
+  left: -35px;
+  bottom: -10px;
+}
+.svg3 {
+  width: 270.167px;
+  height: 109.5px;
+  transform: rotate(-3.628deg);
+  flex-shrink: 0;
+
+  position: absolute;
+  right: 145px;
+  top: -61px;
+}
